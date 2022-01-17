@@ -142,6 +142,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ЗагружаемаяНоменклатура</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ЗагружаемаяНоменклатураРасширеннаяПодсказка</name>
       <id>3</id>
@@ -167,10 +170,19 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
+    <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>Ширина</name>
@@ -436,26 +448,6 @@
     </edit>
     <savedData>true</savedData>
     <extInfo xsi:type="form:SpreadsheetDocumentExtInfo"/>
-  </attributes>
-  <attributes>
-    <name>ДокументСсылка</name>
-    <title>
-      <key>ru</key>
-      <value>Документ ссылка</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>DocumentRef.ЗаказПоставщику</types>
-      <types>String</types>
-      <types>DocumentRef.ЗаказКлиента</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <attributes>
     <name>ДанныеЗагрузки</name>
