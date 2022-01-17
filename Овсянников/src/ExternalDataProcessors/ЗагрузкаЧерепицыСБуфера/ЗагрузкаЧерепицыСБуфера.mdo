@@ -10,18 +10,6 @@
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="6cd4f753-1e94-44ec-885a-79c123db24aa"/>
   <defaultForm>ExternalDataProcessor.ЗагрузкаЧерепицыСБуфера.Form.Форма</defaultForm>
-  <attributes uuid="d860bd79-26c4-4f85-a6d0-5f0d369c36d6">
-    <name>ЗагружаемаяНоменклатура</name>
-    <synonym>
-      <key>ru</key>
-      <value>Загружаемая номенклатура</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Номенклатура</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="e2ae0ce8-fdba-4120-a9e4-42176f4affc1">
     <name>Ширина</name>
     <synonym>
@@ -35,6 +23,18 @@
         <scale>3</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7dcb8a87-dc11-429f-866e-9ce3a98e31c0">
+    <name>ЗагружаемаяНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружаемая номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
