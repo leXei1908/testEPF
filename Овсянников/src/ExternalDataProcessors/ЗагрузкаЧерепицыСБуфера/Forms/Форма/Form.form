@@ -302,7 +302,7 @@
       <id>20</id>
       <title>
         <key>ru</key>
-        <value>Далее >></value>
+        <value>Загрузить >></value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -326,6 +326,7 @@
       </extendedTooltip>
       <commandName>Form.Command.Далее</commandName>
       <representation>Auto</representation>
+      <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
